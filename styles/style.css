@@ -8,12 +8,21 @@
     width: 100%;
 }
 
+.lightning-bolt {
+    width: 250px;
+    position: absolute;
+    left: 10px;
+    top:10px;
+    transform: rotate(-45deg);
+    animation: lightning .5s infinite;
+}
+
 .cow {
     width: 150px;
     position: absolute;
     bottom: 50px;
     left: 150px;
-    animation: cow 2s infinite alternate;
+    animation: cow 1.5s infinite linear alternate;
 }
 
 .car {
@@ -21,5 +30,29 @@
     position: absolute;
     top:260px;
     right: 450px;
-    animation: car 3s infinite;
+    animation: car 3s linear infinite;
+}
+
+.wind-1 {
+    width: 70px;
+    position: absolute;
+    top: 270px;
+    left: -70px;
+    animation: wind1 5s linear infinite running;
+}
+
+.wind-2 {
+    width: 65px;
+    position: absolute;
+    top: 330px;
+    left: -65px;
+    animation: wind2 10s linear infinite running;
+}
+
+.wind-3 {
+    width: 75px;
+    position: absolute;
+    top: 150px;
+    left: -75px;
+    animation: wind3 7.5s linear infinite running;
 }
