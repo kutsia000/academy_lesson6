@@ -1,0 +1,25 @@
+.cover {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.cover-image {
+    width: 100%;
+}
+
+.cow {
+    width: 150px;
+    position: absolute;
+    bottom: 50px;
+    left: 150px;
+    animation: cow 2s infinite alternate;
+}
+
+.car {
+    width: 80px;
+    position: absolute;
+    top:260px;
+    right: 450px;
+    animation: car 3s infinite;
+}
